@@ -1,0 +1,43 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+#grey{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    display: inline-block;
+    box-shadow: 10px 12px 8px 3px rebeccapurple;
+}
+
+#blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    display: inline-block;
+    box-shadow: 10px 12px 8px 3px rebeccapurple;
+}
+
+#red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    display: inline-block;
+    box-shadow: 10px 12px 8px 3px rebeccapurple;
+}
+
+
+#pink{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    display: inline-block;
+    box-shadow: 10px 12px 8px 3px rebeccapurple;
+}

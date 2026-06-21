@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>fff
+
+    </h1>
+    <button id="stop">stop</button>
+
+    <script>
+
+      
+        const saymaitresh = function(){
+            console.log("maitresh")
+        }
+
+
+        const changetext = function(){
+
+            document.querySelector('h1').innerHTML = "je yee he pure wrold me"
+          
+        }
+      const s1 =   setTimeout(changetext, 2000)
+
+        let btn = document.querySelector('button')
+
+
+        btn.addEventListener('click',function(){
+            clearTimeout(s1)
+        })
+    </script>
+</body>
+</html>

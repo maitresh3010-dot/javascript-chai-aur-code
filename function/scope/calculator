@@ -1,0 +1,47 @@
+let calculator = (a,b, op)=>{
+
+
+    if(op === "add"){
+        return a+b
+    }
+
+    else if(op ==="sub"){
+        return a-b
+    }
+
+
+    else if (op ==="mul")
+    {
+        return a*b
+    }           
+    else if (op === "div"){
+        return a/b
+    }   
+
+    else{
+
+        return " invalid operator"
+    }
+    
+}
+
+console.log(calculator(2,3,"add"))  
+
+      function   evenodd(num){
+        if (num%2 === 0){
+            return "even"
+        }
+        return "odd"
+      }
+console.log(evenodd(4))  // Output: "even"
+console.log(evenodd(7))  // Output: "odd"
+
+
+function myname(name, callback){
+    callback(name)
+}
+
+
+myname("maitresh", function(result){
+    console.log(result)
+})

@@ -1,0 +1,57 @@
+body{
+    font-family: 'Comic Sans Ms', cursive, sans-serif;
+    background-color: #ffde59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.game-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    border: 5px solid #ff914d;
+    max-width: 400px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00bf63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+#message {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff3131;
+    min-height: 30px;
+}
