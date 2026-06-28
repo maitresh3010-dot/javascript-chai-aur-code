@@ -5,7 +5,7 @@ console.log(arr.map(function(ele){
     return ele/2 
 }))
 
-
+uohoijpp[;
 
 
 let student = [
